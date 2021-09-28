@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../../../../../../bsp/picdem_fs_usb_k50/buttons.c ../../../../../../bsp/picdem_fs_usb_k50/leds.c ../../../../../../bsp/picdem_fs_usb_k50/adc.c ../../../../../../framework/usb/src/usb_device.c ../demo_src/usb_descriptors.c ../../../../../../framework/usb/src/usb_device_hid.c ../demo_src/usb_events.c ../demo_src/app_led_usb_status.c ../demo_src/main.c system.c ../demo_src/app_device_custom_hid.c
+SOURCEFILES_QUOTED_IF_SPACED=../../../../../../bsp/picdem_fs_usb_k50/buttons.c ../../../../../../bsp/picdem_fs_usb_k50/leds.c ../../../../../../bsp/picdem_fs_usb_k50/adc.c ../../../../../../framework/usb/src/usb_device.c ../demo_src/usb_descriptors.c ../../../../../../framework/usb/src/usb_device_hid.c ../demo_src/usb_events.c ../demo_src/app_led_usb_status.c system.c ../demo_src_UC/app_device_custom_hid.c ../demo_src_UC/isr_test.c ../demo_src_UC/main.c ../demo_src_UC/timers.c ../../../../../../bsp/picdem_fs_usb_4550/SparkFun_ProDriver_TC78H670FTG.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/2111607034/buttons.p1 ${OBJECTDIR}/_ext/2111607034/leds.p1 ${OBJECTDIR}/_ext/2111607034/adc.p1 ${OBJECTDIR}/_ext/838585624/usb_device.p1 ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ${OBJECTDIR}/_ext/300881143/usb_events.p1 ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ${OBJECTDIR}/_ext/300881143/main.p1 ${OBJECTDIR}/system.p1 ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/2111607034/buttons.p1.d ${OBJECTDIR}/_ext/2111607034/leds.p1.d ${OBJECTDIR}/_ext/2111607034/adc.p1.d ${OBJECTDIR}/_ext/838585624/usb_device.p1.d ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d ${OBJECTDIR}/_ext/300881143/usb_events.p1.d ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d ${OBJECTDIR}/_ext/300881143/main.p1.d ${OBJECTDIR}/system.p1.d ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/2111607034/buttons.p1 ${OBJECTDIR}/_ext/2111607034/leds.p1 ${OBJECTDIR}/_ext/2111607034/adc.p1 ${OBJECTDIR}/_ext/838585624/usb_device.p1 ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ${OBJECTDIR}/_ext/300881143/usb_events.p1 ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ${OBJECTDIR}/system.p1 ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1 ${OBJECTDIR}/_ext/46521642/isr_test.p1 ${OBJECTDIR}/_ext/46521642/main.p1 ${OBJECTDIR}/_ext/46521642/timers.p1 ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/2111607034/buttons.p1.d ${OBJECTDIR}/_ext/2111607034/leds.p1.d ${OBJECTDIR}/_ext/2111607034/adc.p1.d ${OBJECTDIR}/_ext/838585624/usb_device.p1.d ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d ${OBJECTDIR}/_ext/300881143/usb_events.p1.d ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d ${OBJECTDIR}/system.p1.d ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1.d ${OBJECTDIR}/_ext/46521642/isr_test.p1.d ${OBJECTDIR}/_ext/46521642/main.p1.d ${OBJECTDIR}/_ext/46521642/timers.p1.d ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/2111607034/buttons.p1 ${OBJECTDIR}/_ext/2111607034/leds.p1 ${OBJECTDIR}/_ext/2111607034/adc.p1 ${OBJECTDIR}/_ext/838585624/usb_device.p1 ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ${OBJECTDIR}/_ext/300881143/usb_events.p1 ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ${OBJECTDIR}/_ext/300881143/main.p1 ${OBJECTDIR}/system.p1 ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1
+OBJECTFILES=${OBJECTDIR}/_ext/2111607034/buttons.p1 ${OBJECTDIR}/_ext/2111607034/leds.p1 ${OBJECTDIR}/_ext/2111607034/adc.p1 ${OBJECTDIR}/_ext/838585624/usb_device.p1 ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ${OBJECTDIR}/_ext/300881143/usb_events.p1 ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ${OBJECTDIR}/system.p1 ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1 ${OBJECTDIR}/_ext/46521642/isr_test.p1 ${OBJECTDIR}/_ext/46521642/main.p1 ${OBJECTDIR}/_ext/46521642/timers.p1 ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1
 
 # Source Files
-SOURCEFILES=../../../../../../bsp/picdem_fs_usb_k50/buttons.c ../../../../../../bsp/picdem_fs_usb_k50/leds.c ../../../../../../bsp/picdem_fs_usb_k50/adc.c ../../../../../../framework/usb/src/usb_device.c ../demo_src/usb_descriptors.c ../../../../../../framework/usb/src/usb_device_hid.c ../demo_src/usb_events.c ../demo_src/app_led_usb_status.c ../demo_src/main.c system.c ../demo_src/app_device_custom_hid.c
+SOURCEFILES=../../../../../../bsp/picdem_fs_usb_k50/buttons.c ../../../../../../bsp/picdem_fs_usb_k50/leds.c ../../../../../../bsp/picdem_fs_usb_k50/adc.c ../../../../../../framework/usb/src/usb_device.c ../demo_src/usb_descriptors.c ../../../../../../framework/usb/src/usb_device_hid.c ../demo_src/usb_events.c ../demo_src/app_led_usb_status.c system.c ../demo_src_UC/app_device_custom_hid.c ../demo_src_UC/isr_test.c ../demo_src_UC/main.c ../demo_src_UC/timers.c ../../../../../../bsp/picdem_fs_usb_4550/SparkFun_ProDriver_TC78H670FTG.c
 
 
 CFLAGS=
@@ -97,7 +97,7 @@ ${OBJECTDIR}/_ext/2111607034/buttons.p1: ../../../../../../bsp/picdem_fs_usb_k50
 	@${MKDIR} "${OBJECTDIR}/_ext/2111607034" 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/buttons.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/buttons.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/buttons.p1 ../../../../../../bsp/picdem_fs_usb_k50/buttons.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/buttons.p1 ../../../../../../bsp/picdem_fs_usb_k50/buttons.c 
 	@-${MV} ${OBJECTDIR}/_ext/2111607034/buttons.d ${OBJECTDIR}/_ext/2111607034/buttons.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/2111607034/buttons.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -105,7 +105,7 @@ ${OBJECTDIR}/_ext/2111607034/leds.p1: ../../../../../../bsp/picdem_fs_usb_k50/le
 	@${MKDIR} "${OBJECTDIR}/_ext/2111607034" 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/leds.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/leds.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/leds.p1 ../../../../../../bsp/picdem_fs_usb_k50/leds.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/leds.p1 ../../../../../../bsp/picdem_fs_usb_k50/leds.c 
 	@-${MV} ${OBJECTDIR}/_ext/2111607034/leds.d ${OBJECTDIR}/_ext/2111607034/leds.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/2111607034/leds.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -113,7 +113,7 @@ ${OBJECTDIR}/_ext/2111607034/adc.p1: ../../../../../../bsp/picdem_fs_usb_k50/adc
 	@${MKDIR} "${OBJECTDIR}/_ext/2111607034" 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/adc.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/adc.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/adc.p1 ../../../../../../bsp/picdem_fs_usb_k50/adc.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/adc.p1 ../../../../../../bsp/picdem_fs_usb_k50/adc.c 
 	@-${MV} ${OBJECTDIR}/_ext/2111607034/adc.d ${OBJECTDIR}/_ext/2111607034/adc.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/2111607034/adc.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -121,7 +121,7 @@ ${OBJECTDIR}/_ext/838585624/usb_device.p1: ../../../../../../framework/usb/src/u
 	@${MKDIR} "${OBJECTDIR}/_ext/838585624" 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device.p1 ../../../../../../framework/usb/src/usb_device.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device.p1 ../../../../../../framework/usb/src/usb_device.c 
 	@-${MV} ${OBJECTDIR}/_ext/838585624/usb_device.d ${OBJECTDIR}/_ext/838585624/usb_device.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/838585624/usb_device.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -129,7 +129,7 @@ ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1: ../demo_src/usb_descriptors.c  n
 	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ../demo_src/usb_descriptors.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ../demo_src/usb_descriptors.c 
 	@-${MV} ${OBJECTDIR}/_ext/300881143/usb_descriptors.d ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -137,7 +137,7 @@ ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1: ../../../../../../framework/usb/s
 	@${MKDIR} "${OBJECTDIR}/_ext/838585624" 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ../../../../../../framework/usb/src/usb_device_hid.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ../../../../../../framework/usb/src/usb_device_hid.c 
 	@-${MV} ${OBJECTDIR}/_ext/838585624/usb_device_hid.d ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -145,7 +145,7 @@ ${OBJECTDIR}/_ext/300881143/usb_events.p1: ../demo_src/usb_events.c  nbproject/M
 	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_events.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_events.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_events.p1 ../demo_src/usb_events.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_events.p1 ../demo_src/usb_events.c 
 	@-${MV} ${OBJECTDIR}/_ext/300881143/usb_events.d ${OBJECTDIR}/_ext/300881143/usb_events.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/usb_events.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -153,40 +153,64 @@ ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1: ../demo_src/app_led_usb_statu
 	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
 	@${RM} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ../demo_src/app_led_usb_status.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ../demo_src/app_led_usb_status.c 
 	@-${MV} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.d ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/300881143/main.p1: ../demo_src/main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
-	@${RM} ${OBJECTDIR}/_ext/300881143/main.p1.d 
-	@${RM} ${OBJECTDIR}/_ext/300881143/main.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/main.p1 ../demo_src/main.c 
-	@-${MV} ${OBJECTDIR}/_ext/300881143/main.d ${OBJECTDIR}/_ext/300881143/main.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/system.p1: system.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/system.p1.d 
 	@${RM} ${OBJECTDIR}/system.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/system.p1 system.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/system.p1 system.c 
 	@-${MV} ${OBJECTDIR}/system.d ${OBJECTDIR}/system.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/system.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1: ../demo_src/app_device_custom_hid.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
-	@${RM} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1.d 
-	@${RM} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1 ../demo_src/app_device_custom_hid.c 
-	@-${MV} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.d ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1: ../demo_src_UC/app_device_custom_hid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1 ../demo_src_UC/app_device_custom_hid.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.d ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/46521642/isr_test.p1: ../demo_src_UC/isr_test.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/isr_test.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/isr_test.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/isr_test.p1 ../demo_src_UC/isr_test.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/isr_test.d ${OBJECTDIR}/_ext/46521642/isr_test.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/isr_test.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/46521642/main.p1: ../demo_src_UC/main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/main.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/main.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/main.p1 ../demo_src_UC/main.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/main.d ${OBJECTDIR}/_ext/46521642/main.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/46521642/timers.p1: ../demo_src_UC/timers.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/timers.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/timers.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/timers.p1 ../demo_src_UC/timers.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/timers.d ${OBJECTDIR}/_ext/46521642/timers.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/timers.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1: ../../../../../../bsp/picdem_fs_usb_4550/SparkFun_ProDriver_TC78H670FTG.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1036946916" 
+	@${RM} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1 ../../../../../../bsp/picdem_fs_usb_4550/SparkFun_ProDriver_TC78H670FTG.c 
+	@-${MV} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.d ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 else
 ${OBJECTDIR}/_ext/2111607034/buttons.p1: ../../../../../../bsp/picdem_fs_usb_k50/buttons.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/2111607034" 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/buttons.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/buttons.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/buttons.p1 ../../../../../../bsp/picdem_fs_usb_k50/buttons.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/buttons.p1 ../../../../../../bsp/picdem_fs_usb_k50/buttons.c 
 	@-${MV} ${OBJECTDIR}/_ext/2111607034/buttons.d ${OBJECTDIR}/_ext/2111607034/buttons.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/2111607034/buttons.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -194,7 +218,7 @@ ${OBJECTDIR}/_ext/2111607034/leds.p1: ../../../../../../bsp/picdem_fs_usb_k50/le
 	@${MKDIR} "${OBJECTDIR}/_ext/2111607034" 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/leds.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/leds.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/leds.p1 ../../../../../../bsp/picdem_fs_usb_k50/leds.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/leds.p1 ../../../../../../bsp/picdem_fs_usb_k50/leds.c 
 	@-${MV} ${OBJECTDIR}/_ext/2111607034/leds.d ${OBJECTDIR}/_ext/2111607034/leds.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/2111607034/leds.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -202,7 +226,7 @@ ${OBJECTDIR}/_ext/2111607034/adc.p1: ../../../../../../bsp/picdem_fs_usb_k50/adc
 	@${MKDIR} "${OBJECTDIR}/_ext/2111607034" 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/adc.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/2111607034/adc.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/adc.p1 ../../../../../../bsp/picdem_fs_usb_k50/adc.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/2111607034/adc.p1 ../../../../../../bsp/picdem_fs_usb_k50/adc.c 
 	@-${MV} ${OBJECTDIR}/_ext/2111607034/adc.d ${OBJECTDIR}/_ext/2111607034/adc.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/2111607034/adc.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -210,7 +234,7 @@ ${OBJECTDIR}/_ext/838585624/usb_device.p1: ../../../../../../framework/usb/src/u
 	@${MKDIR} "${OBJECTDIR}/_ext/838585624" 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device.p1 ../../../../../../framework/usb/src/usb_device.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device.p1 ../../../../../../framework/usb/src/usb_device.c 
 	@-${MV} ${OBJECTDIR}/_ext/838585624/usb_device.d ${OBJECTDIR}/_ext/838585624/usb_device.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/838585624/usb_device.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -218,7 +242,7 @@ ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1: ../demo_src/usb_descriptors.c  n
 	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ../demo_src/usb_descriptors.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1 ../demo_src/usb_descriptors.c 
 	@-${MV} ${OBJECTDIR}/_ext/300881143/usb_descriptors.d ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/usb_descriptors.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -226,7 +250,7 @@ ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1: ../../../../../../framework/usb/s
 	@${MKDIR} "${OBJECTDIR}/_ext/838585624" 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ../../../../../../framework/usb/src/usb_device_hid.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1 ../../../../../../framework/usb/src/usb_device_hid.c 
 	@-${MV} ${OBJECTDIR}/_ext/838585624/usb_device_hid.d ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/838585624/usb_device_hid.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -234,7 +258,7 @@ ${OBJECTDIR}/_ext/300881143/usb_events.p1: ../demo_src/usb_events.c  nbproject/M
 	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_events.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/300881143/usb_events.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_events.p1 ../demo_src/usb_events.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/usb_events.p1 ../demo_src/usb_events.c 
 	@-${MV} ${OBJECTDIR}/_ext/300881143/usb_events.d ${OBJECTDIR}/_ext/300881143/usb_events.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/usb_events.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
@@ -242,33 +266,57 @@ ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1: ../demo_src/app_led_usb_statu
 	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
 	@${RM} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d 
 	@${RM} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ../demo_src/app_led_usb_status.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1 ../demo_src/app_led_usb_status.c 
 	@-${MV} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.d ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/app_led_usb_status.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
-	
-${OBJECTDIR}/_ext/300881143/main.p1: ../demo_src/main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
-	@${RM} ${OBJECTDIR}/_ext/300881143/main.p1.d 
-	@${RM} ${OBJECTDIR}/_ext/300881143/main.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/main.p1 ../demo_src/main.c 
-	@-${MV} ${OBJECTDIR}/_ext/300881143/main.d ${OBJECTDIR}/_ext/300881143/main.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 ${OBJECTDIR}/system.p1: system.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/system.p1.d 
 	@${RM} ${OBJECTDIR}/system.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/system.p1 system.c 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/system.p1 system.c 
 	@-${MV} ${OBJECTDIR}/system.d ${OBJECTDIR}/system.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/system.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
-${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1: ../demo_src/app_device_custom_hid.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/_ext/300881143" 
-	@${RM} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1.d 
-	@${RM} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1 ../demo_src/app_device_custom_hid.c 
-	@-${MV} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.d ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1.d 
-	@${FIXDEPS} ${OBJECTDIR}/_ext/300881143/app_device_custom_hid.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1: ../demo_src_UC/app_device_custom_hid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1 ../demo_src_UC/app_device_custom_hid.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.d ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/app_device_custom_hid.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/46521642/isr_test.p1: ../demo_src_UC/isr_test.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/isr_test.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/isr_test.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/isr_test.p1 ../demo_src_UC/isr_test.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/isr_test.d ${OBJECTDIR}/_ext/46521642/isr_test.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/isr_test.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/46521642/main.p1: ../demo_src_UC/main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/main.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/main.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/main.p1 ../demo_src_UC/main.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/main.d ${OBJECTDIR}/_ext/46521642/main.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/main.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/46521642/timers.p1: ../demo_src_UC/timers.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/46521642" 
+	@${RM} ${OBJECTDIR}/_ext/46521642/timers.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/46521642/timers.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/46521642/timers.p1 ../demo_src_UC/timers.c 
+	@-${MV} ${OBJECTDIR}/_ext/46521642/timers.d ${OBJECTDIR}/_ext/46521642/timers.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/46521642/timers.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1: ../../../../../../bsp/picdem_fs_usb_4550/SparkFun_ProDriver_TC78H670FTG.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/1036946916" 
+	@${RM} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1.d 
+	@${RM} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1 ../../../../../../bsp/picdem_fs_usb_4550/SparkFun_ProDriver_TC78H670FTG.c 
+	@-${MV} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.d ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/_ext/1036946916/SparkFun_ProDriver_TC78H670FTG.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 endif
 
@@ -289,13 +337,13 @@ endif
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.map  -D__DEBUG=1  -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto        $(COMPARISON_BUILD) -Wl,--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -o dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.map  -D__DEBUG=1  -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto        $(COMPARISON_BUILD) -Wl,--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -o dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
 	@${RM} dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.hex 
 	
 else
 dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.map  -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"../../../../../../bsp/picdem_fs_usb_k50" -I"." -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     $(COMPARISON_BUILD) -Wl,--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -o dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	${MP_CC} $(MP_EXTRA_LD_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -Wl,-Map=dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.map  -DXPRJ_PICDEM_FSUSB_K50=$(CND_CONF)  -Wl,--defsym=__MPLAB_BUILD=1  -fno-short-double -fno-short-float -memi=wordwrite -maddrqual=ignore -xassembler-with-cpp -I"../demo_src" -I"../../../../../../framework/usb/inc" -I"." -I"../demo_src_UC" -I"../../../../../../bsp/picdem_fs_usb_4550" -I"../../../../../../bsp/picdem_fs_usb_k50" -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx032 -Wl,--data-init -mno-keep-startup -mno-download -mdefault-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     $(COMPARISON_BUILD) -Wl,--memorysummary,dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -o dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb_k50.x.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
 	
 endif
 

@@ -8,6 +8,9 @@
         <itemPath>../../../../../../bsp/picdem_fs_usb_k50/buttons.h</itemPath>
         <itemPath>../../../../../../bsp/picdem_fs_usb_k50/leds.h</itemPath>
         <itemPath>../../../../../../bsp/picdem_fs_usb_k50/adc.h</itemPath>
+        <itemPath>../../../../../../bsp/picdem_fs_usb_4550/power.h</itemPath>
+        <itemPath>../demo_src_UC/SparkFun_ProDriver_TC78H670FTG_Library.h</itemPath>
+        <itemPath>../demo_src_UC/timers.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="usb" projectFiles="true">
         <itemPath>../../../../../../framework/usb/inc/usb.h</itemPath>
@@ -20,11 +23,11 @@
         <itemPath>../../../../../../framework/usb/inc/usb_hal_pic18.h</itemPath>
         <itemPath>../../../../../../framework/usb/inc/usb_device_hid.h</itemPath>
       </logicalFolder>
-      <itemPath>../demo_src/app_led_usb_status.h</itemPath>
       <itemPath>./system.h</itemPath>
       <itemPath>./fixed_address_memory.h</itemPath>
-      <itemPath>io_mapping.h</itemPath>
-      <itemPath>../demo_src/app_device_custom_hid.h</itemPath>
+      <itemPath>../demo_src_UC/app_device_custom_hid.h</itemPath>
+      <itemPath>../demo_src_UC/app_led_usb_status.h</itemPath>
+      <itemPath>../demo_src_UC/io_mapping.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -37,6 +40,8 @@
         <itemPath>../../../../../../bsp/picdem_fs_usb_k50/buttons.c</itemPath>
         <itemPath>../../../../../../bsp/picdem_fs_usb_k50/leds.c</itemPath>
         <itemPath>../../../../../../bsp/picdem_fs_usb_k50/adc.c</itemPath>
+        <itemPath>../demo_src_UC/timers.c</itemPath>
+        <itemPath>../../../../../../bsp/picdem_fs_usb_4550/SparkFun_ProDriver_TC78H670FTG.c</itemPath>
       </logicalFolder>
       <logicalFolder name="f2" displayName="usb" projectFiles="true">
         <itemPath>../../../../../../framework/usb/src/usb_device.c</itemPath>
@@ -45,9 +50,10 @@
         <itemPath>../demo_src/usb_events.c</itemPath>
       </logicalFolder>
       <itemPath>../demo_src/app_led_usb_status.c</itemPath>
-      <itemPath>../demo_src/main.c</itemPath>
       <itemPath>system.c</itemPath>
-      <itemPath>../demo_src/app_device_custom_hid.c</itemPath>
+      <itemPath>../demo_src_UC/app_device_custom_hid.c</itemPath>
+      <itemPath>../demo_src_UC/isr_test.c</itemPath>
+      <itemPath>../demo_src_UC/main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -64,6 +70,7 @@
     <Elem>../demo_src</Elem>
     <Elem>../../../../../../framework/usb</Elem>
     <Elem>.</Elem>
+    <Elem>../demo_src_UC</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -113,7 +120,7 @@
         <property key="define-macros" value=""/>
         <property key="disable-optimizations" value="false"/>
         <property key="extra-include-directories"
-                  value="../demo_src;../../../../../../framework/usb/inc;../../../../../../bsp/picdem_fs_usb_k50;."/>
+                  value="../demo_src;../../../../../../framework/usb/inc;.;..\demo_src_UC;..\..\..\..\..\..\bsp\picdem_fs_usb_4550;..\..\..\..\..\..\bsp\picdem_fs_usb_k50"/>
         <property key="favor-optimization-for" value="-speed,+space"/>
         <property key="garbage-collect-data" value="true"/>
         <property key="garbage-collect-functions" value="true"/>
@@ -193,7 +200,6 @@
                   value="Press to browse for a specific firmware version"/>
         <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
-        <property key="firmware.download.all" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="false"/>

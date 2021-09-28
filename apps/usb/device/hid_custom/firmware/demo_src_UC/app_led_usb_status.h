@@ -17,57 +17,21 @@ To request to license the code under the MLA license (www.microchip.com/mla_lice
 please contact mla_licensing@microchip.com
 *******************************************************************************/
 
-#ifndef SYSTEM_H
-#define SYSTEM_H
-
-#include <xc.h>
-#include <stdbool.h>
-#include <stdint.h>
-#include "buttons.h"
-#include "leds.h"
-#include "adc.h"
-
-#include "io_mapping.h"
-#include "fixed_address_memory.h"
-
-#define MAIN_RETURN void
-
-/*** System States **************************************************/
-typedef enum
-{
-    SYSTEM_STATE_USB_START,
-    SYSTEM_STATE_USB_SUSPEND,
-    SYSTEM_STATE_USB_RESUME
-} SYSTEM_STATE;
-
 /*********************************************************************
-* Function: void SYSTEM_Initialize( SYSTEM_STATE state )
+* Function: void APP_LEDUpdateUSBStatus(void);
 *
-* Overview: Initializes the system.
+* Overview: Uses one LED to indicate the status of the device on the USB bus.
+*           A fast blink indicates successfully connected.  A slow pulse
+*           indicates that it is still in the process of connecting.  Off
+*           indicates thta it is not attached to the bus or the bus is suspended.
+*           This should be called on every start of frame packet reception and
+*           if a suspend/resume event occurs.
 *
-* PreCondition: None
-*
-* Input:  SYSTEM_STATE - the state to initialize the system into
-*
-* Output: None
-*
-********************************************************************/
-void SYSTEM_Initialize( SYSTEM_STATE state );
-
-
-/*********************************************************************
-* Function: void SYSTEM_Tasks(void)
-*
-* Overview: Runs system level tasks that keep the system running
-*
-* PreCondition: System has been initalized with SYSTEM_Initialize()
+* PreCondition: LEDs are enabled.
 *
 * Input: None
 *
 * Output: None
 *
 ********************************************************************/
-//void SYSTEM_Tasks(void);
-#define SYSTEM_Tasks()
-
-#endif //SYSTEM_H
+void APP_LEDUpdateUSBStatus(void);
